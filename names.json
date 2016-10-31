@@ -1,0 +1,24 @@
+{
+	"test" : "this is a fucking test",
+	"fuck" : "fuck fuck fuck",
+	"people" : [
+	{
+		"namePrefix":"Dr.",
+		"firstName":"Lorem",
+		"middleName":"Fucking",
+		"lastName":"Ipsum",
+		"nameSuffix":"Ph.D.",
+		"jobTitle":"Developer",
+		"phoneOffice":"(123) 456-7890",
+		"phoneFax":"(123) 456-7891",
+		"phoneMobile":"(123) 456-7892",
+		"phoneHome":"(123) 456-7893",
+		"email":"romin.k.irani@gmail.com",
+		"address1":"1212 Apple Tree Lane",
+		"address2":"Apt 69",
+		"city":"Assville",
+		"state":"NC",
+		"zip":"12345"
+	}
+	]
+}
