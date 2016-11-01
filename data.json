@@ -1,5 +1,4 @@
-{
-	"people" : [
+[
 	{
 		"namePrefix":"Dr.",
 		"firstName":"Lorem",
@@ -33,5 +32,4 @@
 		"state":"ID",
 		"zip":"12345"
 	}
-	]
-}
+]
