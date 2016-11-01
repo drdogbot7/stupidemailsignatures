@@ -26,7 +26,13 @@
 			<h1>My Company E-mail Signatures</h1>
 			<p>Scroll down the page to find your name and click the button marked "Copy Signature".</p>
 		</div>
-		<?php foreach ($data[people] as $person) { include('signature.php'); } ?>
+		<?php
+			$index = 1;
+			foreach ($data[people] as $person) {
+				include('signature.php');
+				$index++;
+			}
+		?>
 </div>
 
 </body>

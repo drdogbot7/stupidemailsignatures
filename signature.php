@@ -3,7 +3,7 @@
 				<h3 class="panel-title"><?= ($person[lastName] ? $person[lastName] : ''); ?>, <?= ($person[firstName] ? $person[firstName] : '') ?></h3>
 			</div>
 			<div class="panel-body">
-				<div id="person-{{ loop.index }}">
+				<div id="person-<?= $index ?>">
 					<table border="0" cellpadding="0" cellspacing="0" width="100%">
 						<tr style="margin-bottom:0;">
 							<td style="background:none; border-top: 2px solid #000000; height:1px; width:100%; padding-bottom: 0; font-size: 4px; line-height: 4px;" cellpadding="0" cellspacing="0">&nbsp;</td>
@@ -40,6 +40,6 @@
 				</div>
 			</div>
 			<div class="panel-footer">
-				<button class="btn btn-default" data-my-clipboard data-clipboard-target="#person-{{ loop.index }}" data-clipboard-success="{{ person.firstName }} {{ person.middleName }} {{ person.lastName }}"><span class="glyphicon glyphicon-copy"></span> Copy Signature</button>
+				<button class="btn btn-default" data-my-clipboard data-clipboard-target="#person-<?= $index ?>" data-clipboard-success="{{ person.firstName }} {{ person.middleName }} {{ person.lastName }}"><span class="glyphicon glyphicon-copy"></span> Copy Signature</button>
 			</div>
 		</div>
