@@ -1,6 +1,4 @@
 {
-	"test" : "this is a fucking test",
-	"fuck" : "fuck fuck fuck",
 	"people" : [
 	{
 		"namePrefix":"Dr.",
@@ -13,11 +11,26 @@
 		"phoneFax":"(123) 456-7891",
 		"phoneMobile":"(123) 456-7892",
 		"phoneHome":"(123) 456-7893",
-		"email":"romin.k.irani@gmail.com",
+		"email":"nobody@example.com",
 		"address1":"1212 Apple Tree Lane",
 		"address2":"Apt 69",
 		"city":"Assville",
 		"state":"NC",
+		"zip":"12345"
+	},
+	{
+		"firstName":"Someother",
+		"lastName":"dude",
+		"jobTitle":"Developer",
+		"phoneOffice":"(123) 456-7890",
+		"phoneFax":"(123) 456-7891",
+		"phoneMobile":"(123) 456-7892",
+		"phoneHome":"(123) 456-7893",
+		"email":"fake@example.com",
+		"address1":"5900 Bee Hive Blvd",
+		"address2":"Apt 69",
+		"city":"Potatotown",
+		"state":"ID",
 		"zip":"12345"
 	}
 	]
